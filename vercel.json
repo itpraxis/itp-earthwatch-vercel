@@ -8,8 +8,8 @@
   ],
   "routes": [
     {
-      "src": "/api/sentinel2",
-      "dest": "/api/sentinel2.js"
+      "src": "/api/(.*)",
+      "dest": "/api/$1.js"
     }
   ]
 }
