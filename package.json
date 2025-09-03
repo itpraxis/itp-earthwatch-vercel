@@ -3,13 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "echo 'No build needed for serverless functions'"
+    "build": "echo 'No build needed'"
   },
-  "dependencies": {
-    "@google/earthengine": "^1.6.4",
-    "jsdom": "^24.1.0",
-    "node-fetch": "^3.3.2",
-    "buffer": "^6.0.3",
-    "dotenv": "^16.4.5"
+  "engines": {
+    "node": ">=18"
   }
 }
