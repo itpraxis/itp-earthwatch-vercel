@@ -5,8 +5,12 @@
   "scripts": {
     "build": "echo 'No build needed'"
   },
-  "engines": {
-    "node": ">=18"
+  "dependencies": {
+    "@google/earthengine": "^1.6.4",
+    "buffer": "^6.0.3",
+    "dotenv": "^16.6.1",
+    "jsdom": "^24.1.0",
+    "node-fetch": "^3.3.2"
   },
   "type": "module"
 }
