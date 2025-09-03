@@ -104,3 +104,4 @@ export const config = {
     }
   }
 };// Build trigger 09/03/2025 07:17:41
+// Build trigger 09/03/2025 07:55:55 - Forzar detección de funciones
